@@ -3,7 +3,7 @@
 
 This is a repository for the paper 
 
-**An Empirical Study on Self-Fixed Technical Debt**
+**Does it matter who pays back Technical Debt? An empirical study of self-fixed TD**
 
 It contains the replication package of the study reported in the aforementioned paper.
 
