@@ -35,7 +35,7 @@ $ vagrant plugin install vagrant-vbguest
 The VM is controlled via [Vagrant](https://www.vagrantup.com/downloads.html) and contains the configured environment to run all scripts for this study. Mainly, the VM provides:
 - SonarQube (version 7.6-community)
 - PostgreSQL (version 11, to store SonarQube data)
-- Jupyter + Python + libraries (to run scripts)
+- Jupyter + Python/Java + libraries (to run scripts)
 
 Whenever you boot the VM, the environment is initialized and SonarQube is available at http://localhost:9000.
 
@@ -90,9 +90,9 @@ Before you run the scripts for the study, you have to configure SonarQube as fol
     - Delete all analyses after -> 10400
     - Delete closed issues after -> 36500
 
-2. Activate more Python rules:
+2. Activate more Python/Java rules:
 
-    * Quality Profiles -> Python -> Sonar way, from the drop-down menu click on Copy and set a name
+    * Quality Profiles -> Python/Java -> Sonar way, from the drop-down menu click on Copy and set a name
     * Then click on Inactive and then Bulk Change -> Activate In...
     * Back to  Quality Profiles and set the new profile as Default (from the drop-down)
     
