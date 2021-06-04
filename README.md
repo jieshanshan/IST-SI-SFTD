@@ -103,3 +103,47 @@ To collect the data for the study, you must follow the instructions described in
 1. Open [Jupyter Lab](http://localhost:8888/lab) on your browser (*password: sonar*)
 
 2. There is a file tree on the left, click on `Data-Collection.ipynb`
+
+## 4. Content
+
+The following table describes the content of each file for each RQ in this package.
+
+- `RQ1.R`\
+  R script to build a generalized linear mixed model to investigate the relationship between the likelihood of an issue being self-fixed and several project characteristics: the number of commits, number of developers, SLOC, and the total number of issues. 
+
+- `RQ1.csv`\
+  The dataset used to build a generalized linear mixed model to investigate the relationship between the likelihood of an issue being self-fixed and several project characteristics: the number of commits, number of developers, SLOC, and the total number of issues.
+
+- `RQ2.R`\
+  R script to conduct Wilcoxon Rank Sum tests, Cliff's Delta Effect Size and the Scott-Knott ESD test. 
+
+- `RQ2_ScottKnott.csv`\
+  The dataset used to conduct the Scott-Knott ESD test. 
+
+- `RQ2_Wlcoxon.csv`\
+  The dataset used to conduct Wilcoxon Rank Sum tests and Cliff's Delta Effect Size.
+
+- `RQ3_ScottKnott.R`\
+  R script to conduct the Scott-Knott ESD test. 
+  
+- `RQ3_ScottKnott.csv`\
+  The dataset used to conduct the Scott-Knott ESD test.
+  
+- `RQ3_SurvivalAnalysis.R`\
+  R script to generate Figure.2: Results of Kaplan-Meier method for the survival time of self-fixed and non-self-fixed issues.  
+
+- `RQ3_SurvivalAnalysis.csv`\
+  The dataset used to generate Figure.2: Results of Kaplan-Meier method for the survival time of self-fixed and non-self-fixed issues. 
+
+- `RQ4.R`\
+  R script to build a generalized linear mixed model to investigate the relationship between the likelihood of an issue being self-fixed and two variables (i.e., the number of developers involved in a file and the number of changes that developers made to a file).
+
+- `RQ4.csv`\
+  The dataset used to build a generalized linear mixed model to investigate the relationship between the likelihood of an issue being self-fixed and two variables (i.e., the number of developers involved in a file and the number of changes that developers made to a file).
+  
+- `RQ5.R`\
+  R script to build a generalized linear mixed model to investigate the relationship between the likelihood of an issue being self-fixed and four variables (i.e., developers' seniority, file count, commit count and commit size).
+
+- `RQ5.csv`\
+  The dataset used to build a generalized linear mixed model to investigate the relationship between the likelihood of an issue being self-fixed and two variables (i.e., developers' seniority, file count, commit count and commit size).
+
