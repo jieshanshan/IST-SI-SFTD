@@ -118,16 +118,16 @@ The following table describes the content of each file for each RQ in this packa
   R script to conduct Wilcoxon Rank Sum tests, Cliff's Delta Effect Size and the Scott-Knott ESD test. 
 
 - `RQ2_ScottKnott.csv`\
-  The dataset used to conduct the Scott-Knott ESD test. 
+  The dataset used to conduct the Scott-Knott ESD test, including the self-fixing rate of each rule.
 
 - `RQ2_Wlcoxon.csv`\
-  The dataset used to conduct Wilcoxon Rank Sum tests and Cliff's Delta Effect Size.
+  The dataset used to conduct Wilcoxon Rank Sum tests and Cliff's Delta Effect Size, including the self-fixing rate of each project for five types of TD. It is worth noting that there are some projects where no Test or Document Debt is detected.
 
 - `RQ3_ScottKnott.R`\
   R script to conduct the Scott-Knott ESD test. 
   
 - `RQ3_ScottKnott.csv`\
-  The dataset used to conduct the Scott-Knott ESD test.
+  The dataset used to conduct the Scott-Knott ESD test, including the percentages of issues that have been self-fixed within the three time-frames for all five debt types.
   
 - `RQ3_SurvivalAnalysis.R`\
   R script to generate Figure.2: Results of Kaplan-Meier method for the survival time of self-fixed and non-self-fixed issues.  
